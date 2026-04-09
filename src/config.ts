@@ -1,6 +1,6 @@
 export const CONFIG = {
   EXCHANGE: "BINGX_V3" as const,
-  SOURCE: "bingx-v3" as const,
+  SOURCE: "bingx" as const,
   TYPE: "CEX" as const,
   CHAIN: "multi" as const,
   PORT: parseInt(process.env.PORT || "10284", 10),
